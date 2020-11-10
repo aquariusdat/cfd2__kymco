@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'uan';
+    src: url('../fonts/UTMAvo.woff2') format('woff2'),
+        url('../fonts/UTMAvo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'sd';
+    src: url('../fonts/SFUDINEngAlt.woff2') format('woff2'),
+        url('../fonts/SFUDINEngAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'uab';
+    src: url('../fonts/UTMAvoBold.woff2') format('woff2'),
+        url('../fonts/UTMAvoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'sd3';
+    src: url('../fonts/SFUDINLight.woff2') format('woff2'),
+        url('../fonts/SFUDINLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'sa';
+    src: url('../fonts/SVN-Avo.woff2') format('woff2'),
+        url('../fonts/SVN-Avo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'sab';
+    src: url('../fonts/SVN-Avobold.woff2') format('woff2'),
+        url('../fonts/SVN-Avobold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dinl';
+    src: url('../fonts/DIN-Light.woff2') format('woff2'),
+        url('../fonts/DIN-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'dinb';
+    src: url('../fonts/DIN-Bold.woff2') format('woff2'),
+        url('../fonts/DIN-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'dinba';
+    src: url('../fonts/DIN-BlackAlternate.woff2') format('woff2'),
+        url('../fonts/DIN-BlackAlternate.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'dinm';
+    src: url('../fonts/DIN-Medium.woff2') format('woff2'),
+        url('../fonts/DIN-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'dinr';
+    src: url('../fonts/DIN-Regular.woff2') format('woff2'),
+        url('../fonts/DIN-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'dincb';
+    src: url('../fonts/DINCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/DINCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'sfudin';
+    src: url('../fonts/SFUDINEngschrift.woff2') format('woff2'),
+        url('../fonts/SFUDINEngschrift.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+
+
+
+
+

@@ -1,0 +1,903 @@
+body{
+    width: 100%;
+    height: 100%;
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        main{
+            width: 100%;
+            height: 100%;
+            .slider{
+                position: relative;
+                height: 100%;
+                max-height: 950px;
+                
+                width: 100%;
+                .slider__list{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    .slider__item{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                        h2{
+                            position: absolute;
+                            top:50%;
+                            color: red;
+                            font-size: 48px;
+                            font-family: 'sab';
+                            color:#ffff;
+                            letter-spacing: 0.4px;
+                            
+                        }
+                    }
+                }
+                .slider__bottom{
+                    position: absolute;
+                    bottom:0;
+                    width: 100%;
+                    padding:50px 0;
+                    .container-fluid{
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        .slider__scrolldown{
+                            display:flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            span{
+                                width: 100%;
+                                height: 25px;
+                                display: block;
+                                transform:rotateZ(90deg);
+                                color:white;
+                                font-size: 14px;
+                                font-family: 'uan';
+                                line-height: 22px;
+                                letter-spacing: 0.4px;
+        
+                            }
+                        }
+                        i{
+                            margin-top: 40px;
+                            img{
+                                width: 50px;
+                            }
+                        }
+                        .slider__paging{
+                            span{
+                                &:nth-child(1){
+                                    font-family: 'dincb';
+                                    font-weight: bold;
+                                    line-height: 40px;
+                                    letter-spacing: 0.4px;
+                                    font-size: 74px;
+                                    color:white;
+                                }
+                                &:nth-child(2){
+                                    color: rgba(255,255,255,0.7);
+                                    font-family: 'dincb';
+                                    font-size: 48.5px;
+                                    line-height: 35px;
+                                    letter-spacing: 0.4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .sumenh{
+                margin: 100px 0;
+                position: relative;
+                height: 454px;
+                width: 100%;
+                display:flex;
+                align-items: center;
+                .container{
+                    display:flex;
+                    
+                    .sumenh__text{
+                        position: relative;
+                        width: 550px;
+                        z-index: 100;
+                        &::after{
+                            display: block;
+                            content:"";
+                            width: 120%;
+                            height: 3px;
+                            background-color:black;
+                            position: absolute;
+                            top:0;
+                            right:90%;
+                        }
+                        h2{
+                            font-family: 'sd';
+                            font-size: 60px;
+                            line-height: 22px;
+                            letter-spacing: 0.4px;
+                            color:black;
+                            padding:40px 0;
+                        }
+                        span{
+                            
+                            font-family: 'uan';
+                            font-size: 22px;
+                            line-height: auto;
+                            letter-spacing: 0.4px;
+
+                        }
+                    }
+                    .sumenh__slide{
+                        position: absolute;
+                        right:0;
+                        top:0;
+                        height: 100%;
+                        img{
+                            
+                        }
+                        .slide__btn{
+                            position: absolute;
+                            display: flex;
+                            align-items: center;
+                            background-color: red;
+                            bottom:0;
+                            left:-61px;
+                            .line{
+                                height: 40px;
+                                background-color: #fff;
+                                width: 2px;
+                            }
+                            div{
+                                cursor: pointer;
+                                width: 60px;
+                                height: 65px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                
+                                i{
+                                    img{
+                                        width: 35px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .sanphamhot{
+                margin:100px 0;
+                .container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .textbox{
+                        text-align: center;
+                        h2{
+
+                        }
+                        span{
+
+                        }
+                    }
+
+                    .sanphamhot__box{
+                        display:flex;
+                        width: 100%;
+                        height: 100%;
+                        justify-content: space-around;
+                        align-items: center;
+                        padding:85px 0;
+                        .box{
+                            position: relative;
+                            overflow: hidden;
+                            padding: 0 10px;
+                            &:nth-child(2)
+                            {
+                                .box__content{
+                                    left:30px;
+                                    z-index: 1;
+                                    span{
+                                        font-size: 64px;
+                                        line-height: 35px;
+                                        &:nth-child(1)
+                                        {
+                                            padding:30px;
+                                        }
+                                        &:nth-child(2){
+                                            padding: 0 30px 30px 30px;
+                                        }
+                                    }
+                                    .btn{
+                                        width: 125px;
+                                        height: 35px;
+                                        margin-left: 35px;
+                                        span{
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            &:nth-child(3)
+                            {
+                                .box__content{
+                                    z-index: 1;
+                                    left:15px;
+                                }
+                            }
+                            .box__content{
+                                position: absolute;
+                                left:0;
+                                display:flex;
+                                flex-direction: column;
+                                z-index: 1;
+                                span{
+                                    color:white;
+                                    font-family: 'dincb';
+                                    font-size: 48px;
+                                    line-height: 26px;
+                                    letter-spacing: 0.4px;
+                                    &:nth-child(1)
+                                    {
+                                        padding:20px;
+                                    }
+                                    &:nth-child(2){
+                                        padding: 0 20px 20px 20px;
+                                    }
+                                }
+                                .btn{
+                                    
+                                    display:flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    height: 25px;
+                                    width: 100px;
+                                    border-radius: 10px;
+                                    margin-left:20px;
+                                    span{
+                                        font-family: 'sd';
+                                        font-size: 11px;
+                                        line-height: 15px;
+                                        letter-spacing: 0.4px;
+                                        
+                                    }
+                                }
+                            }
+                            .box__img{
+                                position: relative;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        
+                    }
+
+                    .btn{
+                        width: 355px;
+                        height: 65px;
+                        border-radius: 50px;
+                        cursor: pointer;
+                        span{
+                            font-family: 'sd';
+                            font-size: 25px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+
+            .chonxe{
+                background: url('/img/chonxetheocatinh.jpg') no-repeat;
+                margin:100px 0;
+                background-size:cover;
+                width: 100%;
+                position: relative;
+                object-fit: cover;
+                height: 650px;
+                .container{
+                    .chonxe__wrapper{
+                        position: absolute;
+                        top:15%;
+                        .chonxe_text{
+                            width: 400px;
+                            h2{
+                                width: 260px;
+                                font-size: 60px;
+                                font-family: 'sd';
+                                letter-spacing: 0.4px;
+                                line-height: 65px;
+                            }
+                            span{
+                                display:block;
+                                padding: 25px 0;
+                                font-size: 22px;
+                                line-height: 22px;
+                                letter-spacing: 0.4px;
+                                font-family: 'uan';
+                            }
+                        }
+                        .btn{
+                            margin-top: 20px;
+                            border-radius: 35px;
+                            width: 360px;
+                            padding:10px 40px;
+                            font-family: 'sd';
+                            font-size: 25px;
+                            line-height: 40px;
+                            letter-spacing: 0.4px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .tintuc{
+                margin:100px 0;
+                width: 100%;
+                
+                .container{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .tintuc__title{
+                        display:flex;
+                        flex-direction: column;
+                        align-items: center;
+                        h2{
+
+                        }
+                        span{
+
+                        }
+                    }
+
+                    .tintuc__box{
+                        margin-top:80px;
+                        display:flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        .box{
+                            width: 350px;
+                            border:1px solid rgba(0,0,0,0.2);
+                            
+                            &:nth-child(1)
+                            {
+                                .box__content{
+                                    flex-direction: column-reverse;
+                                    justify-content: flex-end;
+                                    span{
+                                        font-family: 'dincb';
+                                        font-size: 20px;
+                                        padding:15px 35px;
+                                    }
+                                    h3{
+                                        padding:0 35px;
+                                    }
+                                }
+                                
+                            }
+                            .box__img{
+                                width: 100%;
+                                height: 320px;
+                                overflow: hidden;
+                                img{
+                                    max-width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                            .box__content{
+                                display:flex;
+                                flex-direction: column;
+                                align-items: center;
+                                height: 190px;
+                                width: 100%;
+                                h3{
+                                    padding:10px 35px;
+                                    text-transform: uppercase;
+                                    font-family: 'dincb';
+                                    font-size: 35px;
+                                    letter-spacing: 0.4px;
+                                    line-height: 40px;
+                                    text-align: center;
+                                    
+                                }
+                                span{
+                                   
+                                    padding:0 35px 0 35px;
+                                    text-transform: uppercase;
+                                    font-size: 16px;
+                                    font-family: 'uan';
+                                    line-height: 22px;
+                                    letter-spacing: 0.4px;
+                                    text-align: center;
+                                    word-wrap: break-word;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 3;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+                            }
+
+                            .box__link{
+                                display:flex;
+                                justify-content: center;
+                                align-items: flex-start;;
+                                cursor: pointer;
+                                padding:30px 0;
+                                text-decoration: underline;
+                                font-family: 'uan';
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: 0.4px;
+                            }
+                        }
+                    }
+
+                    .btn{
+                        
+                        border-radius: 35px;
+                        width: 355px;
+                        margin:100px 0;
+                        span{
+                            font-family: 'sd';
+                            line-height: 40px;
+                            letter-spacing: 0.4px;
+                            font-size: 25px;
+                            padding:20px 70px;
+
+                        }
+                    }
+                }
+            }
+
+            .network{
+                background: url('/img/network.jpg') no-repeat;
+                background-size: cover;
+                width: 100vw;
+                max-width: 100%;
+                height: 655px;
+                .container{
+                    display:flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    .network__text{
+                        display:flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 100%;
+                        h2{
+                            text-align: center;
+                        }
+                        span{
+                            text-align: center;
+                        }
+                    }
+
+                    .btn{
+                        cursor: pointer;
+                        margin-top:400px;
+                        width: 360px;
+                        height: 65px;
+                        border-radius: 35px;
+                        span{
+                            // padding: 20px 70px;
+                            font-family: 'sd';
+                            font-size: 25px;
+                            line-height: 40px;
+                            letter-spacing: 0.4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include tablet {
+    body{
+        .wrapper{
+            main{
+                .slider{
+                    .slider__list{
+                        .slider__item{
+                            img{
+            
+                            }
+                            .container-fluid{
+                                h2{
+                                    font-size: 35px;
+                                }
+                            }   
+                        }
+                    }
+                    .slider__bottom{
+                        padding: 30px 0;
+                        .container-fluid{
+                            .slider__scrolldown{
+                                span{
+                                    width: 100%;
+                                    height: 3px;
+                                    display: block;
+                                    transform: rotateZ(90deg);
+                                    color: white;
+                                    font-size: 12px;
+                                    font-family: 'uan';
+                                    line-height: 0px;
+                                    letter-spacing: 0.4px;
+                                }
+                                i{
+                                    img{
+                                        width: 30px;
+                                    }
+                                }
+                            }
+                            .slider__paging{
+                                span{
+                                    &:nth-child(1)
+                                    {
+                                        font-size: 55px;
+                                    }
+                                    &:nth-child(2){
+                                        font-size: 38.5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sumenh{
+                    
+                    .container{
+                        display:flex;
+                        flex-direction: column;
+                        .sumenh__text{
+                            width: 100%;
+                            h2{
+
+                            }
+                            span{
+
+                            }
+                        }
+
+                        .sumenh__slide{
+                            width: 100%;
+                            position: relative;
+                            margin-top:30px;
+                            img{
+                                width: 100%;
+                            }
+                            .slide__btn{
+                                position: absolute;
+                                display: flex;
+                                align-items: center;
+                                background-color: red;
+                                bottom: 2.5px;
+                                left: 0;
+                                div{
+                                    i{
+                                        img{
+                                            width: 25px;
+                                            position: relative;
+                                        }
+                                    }
+                                }
+                                .line{
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sanphamhot{
+                    .container{
+                        .textbox{
+                            h2{
+
+                            }
+                            span{
+
+                            }
+                        }
+
+                        .sanphamhot__box{
+                            .box{
+                                &:nth-child(2){
+                                    .box__content{
+                                        span{
+                                            font-size: 55px;
+                                            &:nth-child(1)
+                                            {
+                                                padding:20px;
+                                            }
+                                            &:nth-child(2){
+                                                padding: 0 20px 30px 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .box__content{
+                                    span{
+                                        font-size: 35px;
+                                        &:nth-child(1){
+                                            padding:15px 20px;
+                                        }
+                                    }
+                                    .btn{
+                                        span{
+
+                                        }
+                                    }
+                                }
+                                .box__img{
+                                    img{
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .network{
+                    .container{
+                        .btn{
+                            span{
+                                
+                            }
+                        }
+                    }
+                }
+
+                .tintuc{
+                    .container{
+                        
+                        .tintuc__box{
+                            .box{
+                                &:nth-child(1)
+                                {
+                                    .box__content{
+                                        span{
+                                            font-size: 18px;
+                                        }
+                                    }
+                                }
+                                .box__content{
+                                    h3{
+                                        font-size: 28px;
+                                        line-height: 35px;
+                                    }
+                                    span{
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .chonxe{
+                    .container{
+                        .chonxe__wrapper{
+                            .chonxe_text{
+                                width: unset;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+}
+
+@include mobile {
+    .textbox{
+        h2{
+            font-size: 42px;
+            text-align: center;
+        }
+        span{
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    body{
+        .wrapper{
+            
+            main{
+                .sumenh{
+                    .container{
+                        .sumenh__text{
+                            text-align: center;
+                            h2{
+                                font-size: 42px;
+                            }
+                            span{
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .slider{
+                    height: 500px;
+                    .slider__list{
+                        .slider__item{
+                            img{
+                                
+                            }
+                            .container-fluid{
+                                h2{
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                    .slider__bottom{
+                        padding:10px 0;
+                        .container-fluid{
+                            justify-content: flex-end;
+                            .slider__scrolldown{
+                                display:none;
+                                span{
+
+                                }
+                                i{
+                                    img{
+
+                                    }
+                                }
+                            }
+                            .slider__paging{
+                                span{
+                                    &:nth-child(1){
+                                        font-size: 35px;
+                                    }
+                                    &:nth-child(2){
+                                        font-size: 22.5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .sanphamhot{
+                    .container{
+                        .sanphamhot__box{
+                            .box{
+                                .box__content{
+                                    span{
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        .btn{
+                            width: 320px;
+                            height: 55px;
+                            span{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+                .tintuc{
+                    .container{
+                        .btn{
+                            width: 320px;
+                            height: 55px;
+                            span{
+                                font-size: 22px;
+                            }
+                        }
+                        .tintuc__title{
+                            h2{
+
+                            }
+                            span{
+
+                            }
+                        }
+                        .tintuc__box{
+                            flex-direction: column;
+                            .box{
+                                width: 100%;
+                                &:nth-child(1){
+                                    .box__content{
+                                        span{
+                                            font-size: 23px;
+                                        }
+                                        h3{
+                                            font-size: 42px;
+                                            padding:10px;
+                                            line-height: 45px;
+                                        }
+                                    }
+                                }
+                                .box__img{
+                                    img{
+
+                                    }
+                                }
+                                .box__content{
+                                    h3{
+                                        font-size: 42px;
+                                        line-height: 45px;
+                                    }
+                                    span{
+                                        font-size: 23px;
+                                        padding:10px;
+                                    }
+                                }
+                                .box__link{
+
+                                }
+                            }
+                        }
+                    }
+                }
+                .chonxe{
+                    .container{
+                        .chonxe__wrapper{
+                            width: 300px;
+                            .chonxe_text{
+                                h2{
+                                    width: 100%;
+                                    
+                                    font-size: 41px;
+                                    line-height: 55px;
+                                }
+                                span{
+                                    font-size: 18px;
+                                    
+                                    width: 100%;
+                                }
+                            }
+                            .btn{
+                                width: 300px;
+                                height: 55px;
+                                span{
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .network{
+                    .container{
+                        .btn{
+                            width: 320px;
+                            height: 55px;
+                            span{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

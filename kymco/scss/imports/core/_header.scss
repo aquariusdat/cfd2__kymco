@@ -1,0 +1,184 @@
+header{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 900;
+    .container-fluid{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        .header__logo{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            img{
+
+            }
+        }
+        .header__navbar{
+            height: 100%;
+            display:flex;
+            align-items: center;
+            
+            .navbar__list{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                .navbar__list-item{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 16px;
+                        font-family: 'sa';
+                        line-height: 21px;
+                        letter-spacing: 0.4px;
+                        padding:25px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .header__right{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            i{
+                display:flex;
+                align-items: center;
+                height: 100%;
+                margin-right: 10px;
+                img{
+                    width: 25px;
+                }
+            }
+            .btn{
+                background-color: #f4352c;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 5px;
+                border-radius: 5px;
+                text-decoration: none;
+                span{
+                    font-size: 16px;
+                    font-family: 'sa';
+                    line-height: 21px;
+                    letter-spacing: 0.4px;
+                    padding:7px 22px;
+                    text-decoration: none;
+                    color:white;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1184px) {
+    body{
+        .wrapper{
+            header{
+                .container-fluid{
+                    .header__logo{
+                        img{
+        
+                        }
+                    }
+                    .header__navbar{
+                        
+                        .navbar__list{
+                            .navbar__list-item{
+                                a{
+                                    padding:10px;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                    .header__right{
+                        i{
+                            img{
+        
+                            }
+                        }
+                        .btn{
+                            span{
+                                font-size: 14px;
+                                padding:4px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include tablet {
+    header{
+        .container-fluid{
+            .header__logo{
+                img{
+
+                }
+            }
+            .header__navbar{
+                display:none;
+                .navbar__list{
+                    .navbar__list-item{
+                        a{
+
+                        }
+                    }
+                }
+            }
+            .header__right{
+                i{
+                    img{
+
+                    }
+                }
+                a{
+                    span{
+
+                    }
+                }
+            }
+        }
+    }
+}
+@include mobile {
+    body{
+        .wrapper{
+            header{
+                .container-fluid{
+                    .header__logo{
+                        img{
+
+                        }
+                    }
+                    .header__navbar{
+                        display:none;
+                    }
+                    .header__right{
+                        display:none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@include desktop {
+        
+}
+@include mobile-xxs {
+    
+}

@@ -1,0 +1,27 @@
+.textbox{
+    h2{
+        font-family: 'sd';
+        font-size: 60px;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+        color:black;
+        padding:40px 0;
+    }
+    span{
+        font-family: 'uan';
+        font-size: 22px;
+        line-height: auto;
+        letter-spacing: 0.4px;
+    }
+}
+
+.btn{
+    background-color: red;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        color: white;
+    }
+}
